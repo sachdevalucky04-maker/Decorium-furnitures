@@ -1,0 +1,82 @@
+/* ------- General Reset ------- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #f4f4f4;
+    color: #333;
+}
+
+/* ------- Header ------- */
+header {
+    background: #2c3e50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 15px;
+}
+
+nav a {
+    color: white;
+    margin: 0 12px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* ------- Content Section ------- */
+.content {
+    width: 80%;
+    margin: 40px auto;
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.1);
+    font-size: 20px;
+    line-height: 30px;
+}
+
+/* ------- Forms ------- */
+form input, form textarea, form select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 8px;
+    border: 1px solid #bbb;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+form button {
+    margin-top: 15px;
+    background: #2c3e50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    font-size: 18px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #1a252f;
+}
+
+/* ------- Footer ------- */
+footer {
+    margin-top: 40px;
+    background: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
